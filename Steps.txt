@@ -1,0 +1,8 @@
+Arduino
+
+file --- preferences --- additional board manager
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+tools    --- board --- board manager --- esp8266 --- install
+
