@@ -30,3 +30,20 @@ void loop()
 {
   server.handleClient();
 }
+void toggleLED()
+{
+   for (int pos = 0; pos <= 180; pos += 1) {  // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos); 
+    delay(15);          
+  }
+  digitalWrite(pin_led,HIGH);
+  server.send(204,"");
+  delay(3000);
+  digitalWrite(pin_led,LOW);
+    for (int pos = 180; pos >= 0; pos -= 1) {  // goes from 180 degrees to 0 degrees
+    myservo.write(pos);                  // tell servo to go to position in variable 'pos'
+    delay(15);                           // waits 15ms for the servo to reach the position
+  }
+}
+
