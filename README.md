@@ -25,4 +25,7 @@ Run python face_detection_attendance.py file
 
 ## Video Demo
 
-![VideoDemo](./Video-Demo/Door-Unlock-part1.mp4)
+
+https://github.com/whynesspower/Face-Door-Unlock/assets/77494053/d306fd0d-79ec-4769-bd28-fa93a4540a8b
+
+
